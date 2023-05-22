@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class LecturaEscrituraStreams {
 
-    private final static String[] campos = {"Título: ", "Año: ", "Director: ", "Duración: ", "Sinopsis: ", "Reparto: ", "Sesión: "};
-    private final static String lineSeparator = System.getProperty("line.separator");
-
     /*Pide al usuario la ruta de un fichero
     Si la ruta del fichero de salida es incorrecta (que esté vacia), pedirá
     constantemente que se introduzca una ruta hasta que esta sea correcta.*/
